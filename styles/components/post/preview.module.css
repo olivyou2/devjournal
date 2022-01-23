@@ -21,6 +21,21 @@
     margin-block-start: 0px;
 
     margin-block-end: 10px;
+    font-family: "Noto Sans";
+}
+
+.previewContent h1,
+.previewContent h2,
+.previewContent h3,
+.previewContent h4,
+.previewContent h5,
+.previewContent h6{
+    border: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: darkgray;
+
+    margin-block-end: 15px;
 }
 
 .previewContent blockquote{

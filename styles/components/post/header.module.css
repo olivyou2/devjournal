@@ -13,4 +13,25 @@
 
 .HeaderWrapper{
     width: 98vw;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.PostSaved{
+    width: 49vw;
+    margin: 0px;
+
+    align-items:flex-start;
+    cursor:default;
+}
+
+.PostUpload{
+    width: 49vw;
+    margin: 0px;
+
+    display: flex;
+    justify-content: flex-end;
+
+    cursor: pointer;
 }

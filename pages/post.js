@@ -22,7 +22,7 @@ export default () => {
 
             <Header/>
             <PostHeader savedTime={savedTime}/>
-
+                
             <div className={PostCSS.MenuWrapper}>
 
                 <Write 
@@ -35,9 +35,6 @@ export default () => {
                     }}
 
                     onSave={(content) => {
-                        console.log("save");
-                        console.log(content);
-
                         setSavedTime(Date.now());
                     }}
                 />

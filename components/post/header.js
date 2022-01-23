@@ -35,7 +35,14 @@ const PostHeader = (props) => {
     return (
         <div className={HeaderCSS.PostHeader}>
             <div className={HeaderCSS.HeaderWrapper}>
-                {text}
+                <div className={HeaderCSS.PostSaved}>
+                    {text}
+                </div>
+                <div className={HeaderCSS.PostUpload}>
+                    <div>
+                        Upload
+                    </div>
+                </div>
             </div>
         </div>
     )
