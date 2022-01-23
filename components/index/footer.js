@@ -42,6 +42,9 @@ const Footer = () => {
                                 <li>
                                     Github
                                 </li>
+                                <li>
+                                    RSS Feed
+                                </li>
                             </ul>
                         </div>
                     </div>

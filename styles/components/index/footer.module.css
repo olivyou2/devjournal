@@ -49,7 +49,7 @@
 }
 
 .Column .Header{
-    color: white;
+    color: #6c7e99;
 
     font-family: "Noto Sans";
     font-weight: 600;
@@ -58,7 +58,7 @@
 
 .Column .Row{
     top: 0px;
-    color:white;
+    color:#6c7e99;
 
     font-family: "Noto Sans";
     font-weight: 200;
