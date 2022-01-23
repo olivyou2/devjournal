@@ -1,0 +1,15 @@
+.PostWrapper{
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: center;
+
+    width: 100vw;
+
+    margin-top: 20px;
+}
+
+.Posts{
+    color: darkgray;
+    width: 80vw;
+}

@@ -40,9 +40,10 @@
 
 .previewContent blockquote{
     border-left-style: solid;
-    border-left-color: #222831;
-    border-left-width: 3px;
-    padding-left: 4px;
+    border-left-color: darkgray;
+    border-left-width: 1px;
+    color: darkgray;
+    padding-left: 10px;
 
     margin-inline-start: 20px;
 }

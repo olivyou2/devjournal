@@ -1,0 +1,17 @@
+.SubHeader{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    
+    font-size: 17px;
+    font-family: "Noto Sans";
+    font-weight: 400;
+
+    background-color: #454f5e;
+    color: white;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    padding-left: 20px;
+}

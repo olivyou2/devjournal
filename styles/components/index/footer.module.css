@@ -1,0 +1,56 @@
+.Footer{
+    width: 100%;
+    margin-top: 20px;
+
+    display: flex;
+    background-color: #222831;
+}
+
+.FooterInside{
+    margin: 30px;
+
+    width: 100%;
+}
+
+.FooterCopyright{
+    width: 100%;
+    height: 50px;
+    background-color: #1b2029;
+
+    display: flex;
+    align-items: center;
+}
+
+.FooterCopyrightInside{
+    padding-left: 30px;
+    color: #47546c;
+
+    font-size: 12px;
+    font-family: "Noto Sans";
+    font-weight: 800;
+}
+
+.Column{
+
+}
+
+.Column .Header{
+    color: white;
+    margin-bottom: 5px;
+
+    font-family: "Noto Sans";
+    font-weight: 600;
+    font-size: 15px;
+}   
+
+.Column .Row{
+    color:white;
+
+    font-family: "Noto Sans";
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.Column .Row ul{
+    padding-inline-start: 15px;
+}
