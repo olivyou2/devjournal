@@ -68,3 +68,7 @@
 .Column .Row ul{
     padding-inline-start: 15px;
 }
+
+.Column .Row svg{
+    transform: translateY(2px);
+}
