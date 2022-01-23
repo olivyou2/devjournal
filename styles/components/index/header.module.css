@@ -1,0 +1,8 @@
+.Header{
+    background-color: #222831;
+    color: #00ADB5;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

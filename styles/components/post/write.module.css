@@ -1,0 +1,38 @@
+.write{
+    width:50vw;
+    height:80vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:flex-start;
+}
+
+.writeHeader{
+    height: 40px;
+
+    font-size: 24px;
+    font-family: "Noto Sans";
+    font-weight: 800;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #222831;
+}
+
+.writeInput{
+    width:48vw;
+    height:50vh;
+
+    font-size: 15px;
+    font-family: "Noto Sans";
+
+    border: none;
+    resize: none;
+}
+
+.writeInput:focus{
+    outline: none;
+}

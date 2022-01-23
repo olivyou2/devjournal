@@ -1,0 +1,33 @@
+.preview{
+    width:50vw;
+}
+
+.previewHeader{
+    height: 40px;
+
+    font-size: 24px;
+    font-family: "Noto Sans";
+    font-weight: 800;
+
+    color:#222831;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.previewContent *{
+    margin-top: 0px;
+    margin-block-start: 0px;
+
+    margin-block-end: 10px;
+}
+
+.previewContent blockquote{
+    border-left-style: solid;
+    border-left-color: #222831;
+    border-left-width: 3px;
+    padding-left: 4px;
+
+    margin-inline-start: 20px;
+}
