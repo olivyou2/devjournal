@@ -1,0 +1,75 @@
+.Journal{
+    width: inherit;
+    height: 250px;
+}
+
+.Banner{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-end;
+
+}
+
+.Title{
+    font-size: 20px;
+    font-family: "Noto Sans";
+    font-weight: 800;
+
+    color: #dddddd;
+    text-shadow: 0px 0px 3px #1e1e1e;
+
+    z-index: 2;
+
+    margin-left: 10px;
+}
+
+.Subtitle{
+    font-size: 16px;
+    font-family: "Noto Sans";
+    font-weight: 600;
+
+    color: #dddddd;
+    text-shadow: 0px 0px 3px #1e1e1e;
+
+    z-index: 2;
+
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.ImageWrapper{
+    width: inherit;
+    height: inherit;
+
+    position: absolute;
+
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    box-shadow: 0px 0px 6px darkgray;
+    z-index: 1;
+}
+
+.BannerImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    filter:opacity(0.8);
+}
+
+.Author{
+    padding-top: 5px;
+    padding-left: 5px;
+
+    font-size: 16px;
+    font-family: "Noto Sans";
+    font-weight: 400;
+}

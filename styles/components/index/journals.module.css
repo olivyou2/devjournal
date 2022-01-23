@@ -23,3 +23,33 @@
 
     color: #4e4e4e;
 }
+
+@media screen and (min-width: 900px) {
+    .JournalGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    
+        row-gap: 10px;
+        column-gap: 10px;
+    }   
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .JournalGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+        row-gap: 10px;
+        column-gap: 10px;
+    }   
+}
+
+@media screen and (max-width: 600px) {
+    .JournalGrid{
+        display: grid;
+        grid-template-columns: 1fr;
+    
+        row-gap: 10px;
+        column-gap: 10px;
+    }   
+}

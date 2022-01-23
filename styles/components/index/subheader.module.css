@@ -12,6 +12,8 @@
 
     align-items: center;
     justify-content: flex-start;
+}
 
-    padding-left: 20px;
+.SubHeaderInside{
+    margin: 12px;
 }

@@ -1,9 +1,23 @@
-import JournalsCSS from "../../styles/components/index/journal.module.css";
+import JournalCSS from "../../styles/components/index/journal.module.css";
 
-const Journal = () => {
+const Journal = (props) => {
     return (
-        <div>
+        <div className={JournalCSS.Journal}>
+            <div className={JournalCSS.Banner}>
+                <div className={JournalCSS.ImageWrapper}>
+                    <img src={props.bannerImage} className={JournalCSS.BannerImage}/>
+                </div>
 
+                <div className={JournalCSS.Title}>
+                    {props.title}
+                </div>
+                <div className={JournalCSS.Subtitle}>
+                    {props.subtitle}
+                </div>
+            </div>
+            <div className={JournalCSS.Author}>
+                {props.author}
+            </div>
         </div>
     )
 }

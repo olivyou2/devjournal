@@ -57,6 +57,7 @@
 }   
 
 .Column .Row{
+    position: relative;
     top: 0px;
     color:#6c7e99;
 
@@ -67,6 +68,7 @@
 
 .Column .Row ul{
     padding-inline-start: 15px;
+    margin-block-start: 0px;
 }
 
 .Column .Row svg{
