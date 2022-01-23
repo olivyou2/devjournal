@@ -4,7 +4,7 @@ const SubHeader = () => {
     return (
         <div className={SubHeaderCss.SubHeader}>
             <div>
-                어서 오세요!
+                Welcome!
             </div>
         </div>
     );

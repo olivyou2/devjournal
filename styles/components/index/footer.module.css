@@ -6,10 +6,24 @@
     background-color: #222831;
 }
 
-.FooterInside{
-    margin: 30px;
+@media screen and (min-width: 600px) {
+    .FooterInside{
+        margin: 30px;
 
-    width: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }   
+}
+
+@media screen and (max-width: 600px) {
+    .FooterInside{
+        margin: 30px;
+    
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .FooterCopyright{
@@ -31,12 +45,11 @@
 }
 
 .Column{
-
+    width:300px;
 }
 
 .Column .Header{
     color: white;
-    margin-bottom: 5px;
 
     font-family: "Noto Sans";
     font-weight: 600;
@@ -44,6 +57,7 @@
 }   
 
 .Column .Row{
+    top: 0px;
     color:white;
 
     font-family: "Noto Sans";

@@ -16,11 +16,7 @@ export default () => {
             <Header/>
             <SubHeader/>
             
-            <Posts>
-                <div>
-                    asdf
-                </div>
-            </Posts>
+            <Posts/>
             <Footer/>
         </div>
     )

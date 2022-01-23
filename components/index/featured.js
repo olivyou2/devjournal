@@ -10,6 +10,7 @@ const FeaturedPost = (props) => {
                     Spotlight
                 </div>
             </div>
+            
             <div className={FeaturedCSS.Featured}>
                 <div className={FeaturedCSS.ImgWrapper}>
                     <img src={`${props.bannerImage}`} className={FeaturedCSS.FeaturedImg}/>

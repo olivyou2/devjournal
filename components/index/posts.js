@@ -1,5 +1,6 @@
 import PostsCSS from "../../styles/components/index/posts.module.css";
 import FeaturedPost from "./featured";
+import Journals from "./journals";
 
 const Posts = (prop) => {
     return (
@@ -11,6 +12,8 @@ const Posts = (prop) => {
                     bannerImage = "https://public.bnbstatic.com/image/cms/article/body/zendesk_en_115002995711/ZD6tc5NbS5LxXTiCQbgvkA%3D%3D.png"
                     author = "Olivyou2"
                 />
+
+                <Journals/>
             </div>
         </div>
     )
