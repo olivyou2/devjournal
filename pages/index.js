@@ -14,7 +14,6 @@ export default () => {
             `}</style>
             
             <Header/>
-            <SubHeader/>
             
             <Posts/>
             <Footer/>
