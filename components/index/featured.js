@@ -5,11 +5,6 @@ const FeaturedPost = (props) => {
     
     return (
         <div>
-            <div className={FeaturedCSS.Header}>
-                <div className={FeaturedCSS.HeaderWrapper}>
-                    Spotlight
-                </div>
-            </div>
             
             <div className={FeaturedCSS.Featured}>
                 <div className={FeaturedCSS.ImgWrapper}>
@@ -22,10 +17,6 @@ const FeaturedPost = (props) => {
                         {props.subtitle}
                     </div>
                 </div>
-            </div>
-
-            <div className={FeaturedCSS.Author}>
-                {props.author}
             </div>
         </div>
     )
